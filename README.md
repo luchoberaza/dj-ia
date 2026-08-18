@@ -91,6 +91,7 @@ invariantes.py   nivel 0 de validación: audita PLANES — corre en tests Y en p
 corpus.py        sets reales: el formato de ingesta del nivel 1
 destilacion.py   convierte sets reales en el grafo, la tolerancia y las curvas
 auditoria.py     audita la CONFIGURACIÓN: trampas de tempo y profundidad por fase
+aprendizaje.py   nivel 2: corregirse con lo que se mide, no con lo que se opina
 catalogo_demo.py catálogo sintético de boliche argentino, reproducible
 cli.py           generación en seco de una noche entera
 cli_corpus.py    destilar un corpus · auditar catálogo y grafo
@@ -104,6 +105,28 @@ lo que convierte la votación de jukebox —que vacía pistas— en navegación.
 
 **El salto de género sin puente es estructuralmente imposible.** No es que el motor
 "trate de evitarlo": si no hay arista en el grafo, esa transición no existe como opción.
+
+## Imitar no es lo mismo que medir
+
+La distinción que ordena de dónde puede salir cada regla, y por qué el sistema funciona
+aunque lo que suene alrededor sea mediocre:
+
+|  | Qué es | Cuándo sirve |
+|---|---|---|
+| **Imitar** (nivel 1) | Copiar lo que se tocó | Solo si la fuente es buena. Con material mediocre, basura entra y basura sale |
+| **Medir** (nivel 2) | Registrar qué pasó al tocarlo | **Siempre** — y un DJ malo enseña *más*, porque produce ejemplos negativos |
+
+Para medir hacen falta **varianza y etiquetas**, no calidad. Por eso `aprendizaje.py`
+tiene dos asimetrías deliberadas:
+
+- **El motor se vuelve más conservador solo, nunca más aventurero.** Encarece y saca
+  aristas; jamás las agrega. Sacar una porque la pista se vació es una medición; agregar
+  una es una decisión de gusto, y le corresponde a una persona.
+- **Nada se toca con pocas observaciones.** Una mala noche no descalifica a nadie.
+
+Y que un local pase mala música *en promedio* no lo vuelve inservible: `mejores_tramos`
+se queda con la cola, no con la media. El filtro es el resultado, no el criterio de
+nadie.
 
 ## Las invariantes
 

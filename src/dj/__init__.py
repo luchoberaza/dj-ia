@@ -5,6 +5,14 @@ en el agente del local — ésa es la decisión que hace que el modo sin interne
 trivial en vez de un proyecto aparte.
 """
 
+from .aprendizaje import (
+    Ajuste,
+    PesosResultado,
+    Resultado,
+    actualizar_rendimiento,
+    ajustar_grafo,
+    mejores_tramos,
+)
 from .auditoria import Advertencia, auditar, ruta_monotona
 from .corpus import Corpus, SetGrabado, TemaDeSet
 from .costos import Pesos, evaluar_transicion
@@ -26,6 +34,7 @@ from .restricciones import Violacion
 
 __all__ = [
     "Advertencia",
+    "Ajuste",
     "Atractor",
     "Catalogo",
     "Config",
@@ -41,16 +50,21 @@ __all__ = [
     "PasoPlan",
     "Pesos",
     "PesosDeseabilidad",
+    "PesosResultado",
     "Pista",
     "Plan",
     "PoliticaNoche",
+    "Resultado",
     "Senales",
     "SetGrabado",
     "TemaDeSet",
     "TipoTransicion",
     "Violacion",
+    "actualizar_rendimiento",
+    "ajustar_grafo",
     "auditar",
     "destilar",
+    "mejores_tramos",
     "evaluar_transicion",
     "generar_noche",
     "planificar",
