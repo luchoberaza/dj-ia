@@ -1,0 +1,21 @@
+# entorno
+.venv/
+*.egg-info/
+build/
+dist/
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# editores
+.vscode/
+.idea/
+*.swp
+
+# windows
+Thumbs.db
+desktop.ini
