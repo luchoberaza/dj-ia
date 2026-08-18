@@ -1,0 +1,2207 @@
+{
+ "_aviso": "ARCHIVO DE EJEMPLO. Los sets son sinteticos y fueron generados por el propio motor. Sirven UNICAMENTE para demostrar el formato de ingesta y ejercitar el destilador. NUNCA usarlos para calibrar el motor: seria circular, el destilado confirmaria sus propios sesgos. El corpus real se documenta en docs/formato-corpus.md y esta bloqueado por el riesgo R2.",
+ "sets": [
+  {
+   "id": "ejemplo-01",
+   "fuente": "sintetico",
+   "escena": "ejemplo",
+   "temas": [
+    {
+     "posicion": 1,
+     "artista": "Artista 006",
+     "titulo": "Cumbia 146",
+     "genero": "cumbia",
+     "bpm": 96.2,
+     "camelot": "8B",
+     "energia": 5.2
+    },
+    {
+     "posicion": 2,
+     "artista": "Artista 094",
+     "titulo": "Cumbia 94",
+     "genero": "cumbia",
+     "bpm": 96.0,
+     "camelot": "8A",
+     "energia": 3.6
+    },
+    {
+     "posicion": 3,
+     "artista": "Artista 101",
+     "titulo": "Cumbia 101",
+     "genero": "cumbia",
+     "bpm": 96.6,
+     "camelot": "8A",
+     "energia": 5.4
+    },
+    {
+     "posicion": 4,
+     "artista": "Artista 112",
+     "titulo": "Cumbia 112",
+     "genero": "cumbia",
+     "bpm": 96.8,
+     "camelot": "7A",
+     "energia": 4.9
+    },
+    {
+     "posicion": 5,
+     "artista": "Artista 043",
+     "titulo": "Cumbia 43",
+     "genero": "cumbia",
+     "bpm": 95.2,
+     "camelot": "6A",
+     "energia": 4.3
+    },
+    {
+     "posicion": 6,
+     "artista": "Artista 014",
+     "titulo": "Cumbia 154",
+     "genero": "cumbia",
+     "bpm": 95.8,
+     "camelot": "6A",
+     "energia": 4.0
+    },
+    {
+     "posicion": 7,
+     "artista": "Artista 126",
+     "titulo": "Cumbia 126",
+     "genero": "cumbia",
+     "bpm": 96.3,
+     "camelot": "5A",
+     "energia": 5.4
+    },
+    {
+     "posicion": 8,
+     "artista": "Artista 089",
+     "titulo": "Cumbia 89",
+     "genero": "cumbia",
+     "bpm": 96.4,
+     "camelot": "4A",
+     "energia": 4.2
+    },
+    {
+     "posicion": 9,
+     "artista": "Artista 058",
+     "titulo": "Cumbia 58",
+     "genero": "cumbia",
+     "bpm": 95.9,
+     "camelot": "8A",
+     "energia": 4.8
+    },
+    {
+     "posicion": 10,
+     "artista": "Artista 021",
+     "titulo": "Cumbia 21",
+     "genero": "cumbia",
+     "bpm": 96.4,
+     "camelot": "1A",
+     "energia": 4.1
+    },
+    {
+     "posicion": 11,
+     "artista": "Artista 084",
+     "titulo": "Cumbia 84",
+     "genero": "cumbia",
+     "bpm": 95.9,
+     "camelot": "1B",
+     "energia": 5.0
+    },
+    {
+     "posicion": 12,
+     "artista": "Artista 109",
+     "titulo": "Cumbia 109",
+     "genero": "cumbia",
+     "bpm": 95.8,
+     "camelot": "2B",
+     "energia": 5.0
+    },
+    {
+     "posicion": 13,
+     "artista": "Artista 099",
+     "titulo": "Cumbia 99",
+     "genero": "cumbia",
+     "bpm": 95.7,
+     "camelot": "2B",
+     "energia": 4.4
+    },
+    {
+     "posicion": 14,
+     "artista": "Artista 015",
+     "titulo": "Cumbia 155",
+     "genero": "cumbia",
+     "bpm": 95.4,
+     "camelot": "6A",
+     "energia": 5.1
+    },
+    {
+     "posicion": 15,
+     "artista": "Artista 096",
+     "titulo": "Cumbia 96",
+     "genero": "cumbia",
+     "bpm": 95.8,
+     "camelot": "11B",
+     "energia": 3.4
+    },
+    {
+     "posicion": 16,
+     "artista": "Artista 062",
+     "titulo": "Cumbia 420 202",
+     "genero": "cumbia_420",
+     "bpm": 96.2,
+     "camelot": "11B",
+     "energia": 4.8
+    },
+    {
+     "posicion": 17,
+     "artista": "Artista 093",
+     "titulo": "Cumbia 420 233",
+     "genero": "cumbia_420",
+     "bpm": 95.9,
+     "camelot": "11A",
+     "energia": 3.8
+    },
+    {
+     "posicion": 18,
+     "artista": "Artista 069",
+     "titulo": "Cumbia 69",
+     "genero": "cumbia",
+     "bpm": 96.2,
+     "camelot": "11A",
+     "energia": 4.8
+    },
+    {
+     "posicion": 19,
+     "artista": "Artista 102",
+     "titulo": "Cumbia 102",
+     "genero": "cumbia",
+     "bpm": 101.4,
+     "camelot": "12A",
+     "energia": 6.1
+    },
+    {
+     "posicion": 20,
+     "artista": "Artista 105",
+     "titulo": "Cumbia 105",
+     "genero": "cumbia",
+     "bpm": 102.5,
+     "camelot": "2A",
+     "energia": 6.4
+    },
+    {
+     "posicion": 21,
+     "artista": "Artista 033",
+     "titulo": "Cumbia 420 173",
+     "genero": "cumbia_420",
+     "bpm": 103.1,
+     "camelot": "4A",
+     "energia": 6.2
+    },
+    {
+     "posicion": 22,
+     "artista": "Artista 036",
+     "titulo": "Cumbia 420 176",
+     "genero": "cumbia_420",
+     "bpm": 104.8,
+     "camelot": "4B",
+     "energia": 6.7
+    },
+    {
+     "posicion": 23,
+     "artista": "Artista 054",
+     "titulo": "Cumbia 420 194",
+     "genero": "cumbia_420",
+     "bpm": 104.5,
+     "camelot": "8A",
+     "energia": 7.7
+    },
+    {
+     "posicion": 24,
+     "artista": "Artista 084",
+     "titulo": "Cumbia 420 224",
+     "genero": "cumbia_420",
+     "bpm": 104.5,
+     "camelot": "7B",
+     "energia": 6.1
+    },
+    {
+     "posicion": 25,
+     "artista": "Artista 095",
+     "titulo": "Cumbia 420 235",
+     "genero": "cumbia_420",
+     "bpm": 105.8,
+     "camelot": "7B",
+     "energia": 7.4
+    },
+    {
+     "posicion": 26,
+     "artista": "Artista 011",
+     "titulo": "Cumbia 11",
+     "genero": "cumbia",
+     "bpm": 103.9,
+     "camelot": "7B",
+     "energia": 6.1
+    },
+    {
+     "posicion": 27,
+     "artista": "Artista 098",
+     "titulo": "Cumbia 98",
+     "genero": "cumbia",
+     "bpm": 102.8,
+     "camelot": "7A",
+     "energia": 7.1
+    },
+    {
+     "posicion": 28,
+     "artista": "Artista 079",
+     "titulo": "Cumbia 79",
+     "genero": "cumbia",
+     "bpm": 102.9,
+     "camelot": "11B",
+     "energia": 6.2
+    },
+    {
+     "posicion": 29,
+     "artista": "Artista 015",
+     "titulo": "Cumbia 15",
+     "genero": "cumbia",
+     "bpm": 103.5,
+     "camelot": "10B",
+     "energia": 7.6
+    },
+    {
+     "posicion": 30,
+     "artista": "Artista 017",
+     "titulo": "Cumbia 157",
+     "genero": "cumbia",
+     "bpm": 103.8,
+     "camelot": "10B",
+     "energia": 7.0
+    },
+    {
+     "posicion": 31,
+     "artista": "Artista 002",
+     "titulo": "Cumbia 2",
+     "genero": "cumbia",
+     "bpm": 102.9,
+     "camelot": "9B",
+     "energia": 6.6
+    },
+    {
+     "posicion": 32,
+     "artista": "Artista 001",
+     "titulo": "Cumbia 141",
+     "genero": "cumbia",
+     "bpm": 103.7,
+     "camelot": "9B",
+     "energia": 7.3
+    },
+    {
+     "posicion": 33,
+     "artista": "Artista 022",
+     "titulo": "Cumbia 22",
+     "genero": "cumbia",
+     "bpm": 103.7,
+     "camelot": "6A",
+     "energia": 7.3
+    },
+    {
+     "posicion": 34,
+     "artista": "Artista 056",
+     "titulo": "Cumbia 56",
+     "genero": "cumbia",
+     "bpm": 103.4,
+     "camelot": "5A",
+     "energia": 6.4
+    },
+    {
+     "posicion": 35,
+     "artista": "Artista 051",
+     "titulo": "Cumbia 420 191",
+     "genero": "cumbia_420",
+     "bpm": 106.3,
+     "camelot": "5A",
+     "energia": 7.5
+    },
+    {
+     "posicion": 36,
+     "artista": "Artista 110",
+     "titulo": "Cumbia 420 250",
+     "genero": "cumbia_420",
+     "bpm": 106.0,
+     "camelot": "5B",
+     "energia": 7.3
+    },
+    {
+     "posicion": 37,
+     "artista": "Artista 089",
+     "titulo": "Cumbia 420 229",
+     "genero": "cumbia_420",
+     "bpm": 107.1,
+     "camelot": "2B",
+     "energia": 7.2
+    },
+    {
+     "posicion": 38,
+     "artista": "Artista 006",
+     "titulo": "Dembow 566",
+     "genero": "dembow",
+     "bpm": 114.8,
+     "camelot": "1B",
+     "energia": 8.3
+    },
+    {
+     "posicion": 39,
+     "artista": "Artista 103",
+     "titulo": "Dembow 523",
+     "genero": "dembow",
+     "bpm": 114.9,
+     "camelot": "1B",
+     "energia": 7.3
+    },
+    {
+     "posicion": 40,
+     "artista": "Artista 004",
+     "titulo": "Dembow 564",
+     "genero": "dembow",
+     "bpm": 116.1,
+     "camelot": "6A",
+     "energia": 7.8
+    }
+   ]
+  },
+  {
+   "id": "ejemplo-02",
+   "fuente": "sintetico",
+   "escena": "ejemplo",
+   "temas": [
+    {
+     "posicion": 1,
+     "artista": "Artista 054",
+     "titulo": "Cumbia 54",
+     "genero": "cumbia",
+     "bpm": 98.5,
+     "camelot": "2A",
+     "energia": 4.2
+    },
+    {
+     "posicion": 2,
+     "artista": "Artista 095",
+     "titulo": "Cumbia 95",
+     "genero": "cumbia",
+     "bpm": 96.1,
+     "camelot": "10B",
+     "energia": 4.9
+    },
+    {
+     "posicion": 3,
+     "artista": "Artista 110",
+     "titulo": "Cumbia 110",
+     "genero": "cumbia",
+     "bpm": 98.4,
+     "camelot": "11B",
+     "energia": 5.6
+    },
+    {
+     "posicion": 4,
+     "artista": "Artista 112",
+     "titulo": "Cumbia 112",
+     "genero": "cumbia",
+     "bpm": 98.3,
+     "camelot": "12B",
+     "energia": 5.5
+    },
+    {
+     "posicion": 5,
+     "artista": "Artista 080",
+     "titulo": "Cumbia 80",
+     "genero": "cumbia",
+     "bpm": 98.8,
+     "camelot": "1B",
+     "energia": 6.3
+    },
+    {
+     "posicion": 6,
+     "artista": "Artista 100",
+     "titulo": "Cumbia 420 240",
+     "genero": "cumbia_420",
+     "bpm": 99.5,
+     "camelot": "1B",
+     "energia": 4.7
+    },
+    {
+     "posicion": 7,
+     "artista": "Artista 075",
+     "titulo": "Cumbia 420 215",
+     "genero": "cumbia_420",
+     "bpm": 99.2,
+     "camelot": "2B",
+     "energia": 4.7
+    },
+    {
+     "posicion": 8,
+     "artista": "Artista 099",
+     "titulo": "Cumbia 420 239",
+     "genero": "cumbia_420",
+     "bpm": 99.4,
+     "camelot": "3B",
+     "energia": 5.8
+    },
+    {
+     "posicion": 9,
+     "artista": "Artista 083",
+     "titulo": "Cumbia 83",
+     "genero": "cumbia",
+     "bpm": 97.8,
+     "camelot": "4B",
+     "energia": 4.5
+    },
+    {
+     "posicion": 10,
+     "artista": "Artista 024",
+     "titulo": "Cumbia 24",
+     "genero": "cumbia",
+     "bpm": 98.3,
+     "camelot": "5B",
+     "energia": 6.0
+    },
+    {
+     "posicion": 11,
+     "artista": "Artista 061",
+     "titulo": "Cumbia 61",
+     "genero": "cumbia",
+     "bpm": 98.4,
+     "camelot": "12B",
+     "energia": 4.6
+    },
+    {
+     "posicion": 12,
+     "artista": "Artista 002",
+     "titulo": "Cumbia 2",
+     "genero": "cumbia",
+     "bpm": 101.6,
+     "camelot": "9B",
+     "energia": 6.2
+    },
+    {
+     "posicion": 13,
+     "artista": "Artista 022",
+     "titulo": "Cumbia 22",
+     "genero": "cumbia",
+     "bpm": 101.0,
+     "camelot": "9A",
+     "energia": 5.1
+    },
+    {
+     "posicion": 14,
+     "artista": "Artista 139",
+     "titulo": "Cumbia 139",
+     "genero": "cumbia",
+     "bpm": 99.3,
+     "camelot": "9A",
+     "energia": 4.8
+    },
+    {
+     "posicion": 15,
+     "artista": "Artista 078",
+     "titulo": "Cumbia 78",
+     "genero": "cumbia",
+     "bpm": 99.4,
+     "camelot": "7A",
+     "energia": 5.9
+    },
+    {
+     "posicion": 16,
+     "artista": "Artista 084",
+     "titulo": "Cumbia 84",
+     "genero": "cumbia",
+     "bpm": 99.0,
+     "camelot": "7A",
+     "energia": 5.6
+    },
+    {
+     "posicion": 17,
+     "artista": "Artista 067",
+     "titulo": "Cumbia 67",
+     "genero": "cumbia",
+     "bpm": 98.2,
+     "camelot": "5B",
+     "energia": 5.2
+    },
+    {
+     "posicion": 18,
+     "artista": "Artista 119",
+     "titulo": "Cumbia 119",
+     "genero": "cumbia",
+     "bpm": 97.8,
+     "camelot": "9A",
+     "energia": 4.4
+    },
+    {
+     "posicion": 19,
+     "artista": "Artista 050",
+     "titulo": "Cumbia 420 190",
+     "genero": "cumbia_420",
+     "bpm": 97.7,
+     "camelot": "1A",
+     "energia": 4.6
+    },
+    {
+     "posicion": 20,
+     "artista": "Artista 059",
+     "titulo": "Cumbia 420 199",
+     "genero": "cumbia_420",
+     "bpm": 98.9,
+     "camelot": "6B",
+     "energia": 5.5
+    },
+    {
+     "posicion": 21,
+     "artista": "Artista 074",
+     "titulo": "Cumbia 420 214",
+     "genero": "cumbia_420",
+     "bpm": 98.8,
+     "camelot": "6B",
+     "energia": 5.0
+    },
+    {
+     "posicion": 22,
+     "artista": "Artista 125",
+     "titulo": "Cumbia 125",
+     "genero": "cumbia",
+     "bpm": 99.0,
+     "camelot": "2A",
+     "energia": 6.1
+    },
+    {
+     "posicion": 23,
+     "artista": "Artista 064",
+     "titulo": "Cumbia 64",
+     "genero": "cumbia",
+     "bpm": 98.5,
+     "camelot": "10A",
+     "energia": 5.6
+    },
+    {
+     "posicion": 24,
+     "artista": "Artista 099",
+     "titulo": "Cumbia 99",
+     "genero": "cumbia",
+     "bpm": 97.8,
+     "camelot": "11B",
+     "energia": 5.3
+    },
+    {
+     "posicion": 25,
+     "artista": "Artista 030",
+     "titulo": "Cumbia 420 170",
+     "genero": "cumbia_420",
+     "bpm": 98.6,
+     "camelot": "8A",
+     "energia": 5.2
+    },
+    {
+     "posicion": 26,
+     "artista": "Artista 060",
+     "titulo": "Cumbia 420 200",
+     "genero": "cumbia_420",
+     "bpm": 98.0,
+     "camelot": "7A",
+     "energia": 5.2
+    },
+    {
+     "posicion": 27,
+     "artista": "Artista 070",
+     "titulo": "Cumbia 420 210",
+     "genero": "cumbia_420",
+     "bpm": 98.0,
+     "camelot": "4B",
+     "energia": 5.3
+    },
+    {
+     "posicion": 28,
+     "artista": "Artista 100",
+     "titulo": "Cumbia 100",
+     "genero": "cumbia",
+     "bpm": 99.2,
+     "camelot": "4B",
+     "energia": 5.8
+    },
+    {
+     "posicion": 29,
+     "artista": "Artista 097",
+     "titulo": "Cumbia 97",
+     "genero": "cumbia",
+     "bpm": 99.8,
+     "camelot": "7B",
+     "energia": 6.6
+    },
+    {
+     "posicion": 30,
+     "artista": "Artista 065",
+     "titulo": "Cumbia 65",
+     "genero": "cumbia",
+     "bpm": 100.2,
+     "camelot": "9A",
+     "energia": 6.6
+    },
+    {
+     "posicion": 31,
+     "artista": "Artista 011",
+     "titulo": "Cumbia 151",
+     "genero": "cumbia",
+     "bpm": 97.8,
+     "camelot": "10A",
+     "energia": 5.9
+    },
+    {
+     "posicion": 32,
+     "artista": "Artista 004",
+     "titulo": "Cumbia 4",
+     "genero": "cumbia",
+     "bpm": 99.8,
+     "camelot": "10B",
+     "energia": 5.8
+    },
+    {
+     "posicion": 33,
+     "artista": "Artista 052",
+     "titulo": "Cumbia 52",
+     "genero": "cumbia",
+     "bpm": 100.1,
+     "camelot": "9B",
+     "energia": 6.6
+    },
+    {
+     "posicion": 34,
+     "artista": "Artista 050",
+     "titulo": "Cumbia 50",
+     "genero": "cumbia",
+     "bpm": 97.3,
+     "camelot": "9B",
+     "energia": 5.5
+    },
+    {
+     "posicion": 35,
+     "artista": "Artista 053",
+     "titulo": "Cumbia 53",
+     "genero": "cumbia",
+     "bpm": 98.3,
+     "camelot": "1A",
+     "energia": 5.2
+    },
+    {
+     "posicion": 36,
+     "artista": "Artista 000",
+     "titulo": "Cumbia 140",
+     "genero": "cumbia",
+     "bpm": 98.2,
+     "camelot": "4A",
+     "energia": 5.2
+    },
+    {
+     "posicion": 37,
+     "artista": "Artista 076",
+     "titulo": "Cumbia 76",
+     "genero": "cumbia",
+     "bpm": 103.3,
+     "camelot": "7A",
+     "energia": 7.1
+    },
+    {
+     "posicion": 38,
+     "artista": "Artista 012",
+     "titulo": "Cumbia 12",
+     "genero": "cumbia",
+     "bpm": 103.8,
+     "camelot": "1A",
+     "energia": 7.5
+    },
+    {
+     "posicion": 39,
+     "artista": "Artista 014",
+     "titulo": "Cumbia 14",
+     "genero": "cumbia",
+     "bpm": 104.0,
+     "camelot": "1A",
+     "energia": 7.2
+    },
+    {
+     "posicion": 40,
+     "artista": "Artista 066",
+     "titulo": "Cumbia 420 206",
+     "genero": "cumbia_420",
+     "bpm": 105.6,
+     "camelot": "1A",
+     "energia": 8.0
+    }
+   ]
+  },
+  {
+   "id": "ejemplo-03",
+   "fuente": "sintetico",
+   "escena": "ejemplo",
+   "temas": [
+    {
+     "posicion": 1,
+     "artista": "Artista 125",
+     "titulo": "Cumbia 125",
+     "genero": "cumbia",
+     "bpm": 95.5,
+     "camelot": "9B",
+     "energia": 4.5
+    },
+    {
+     "posicion": 2,
+     "artista": "Artista 098",
+     "titulo": "Cumbia 98",
+     "genero": "cumbia",
+     "bpm": 96.1,
+     "camelot": "8B",
+     "energia": 5.1
+    },
+    {
+     "posicion": 3,
+     "artista": "Artista 062",
+     "titulo": "Cumbia 62",
+     "genero": "cumbia",
+     "bpm": 96.2,
+     "camelot": "8B",
+     "energia": 3.8
+    },
+    {
+     "posicion": 4,
+     "artista": "Artista 002",
+     "titulo": "Cumbia 2",
+     "genero": "cumbia",
+     "bpm": 96.3,
+     "camelot": "2B",
+     "energia": 4.9
+    },
+    {
+     "posicion": 5,
+     "artista": "Artista 126",
+     "titulo": "Cumbia 126",
+     "genero": "cumbia",
+     "bpm": 96.3,
+     "camelot": "5B",
+     "energia": 4.2
+    },
+    {
+     "posicion": 6,
+     "artista": "Artista 068",
+     "titulo": "Cumbia 68",
+     "genero": "cumbia",
+     "bpm": 96.1,
+     "camelot": "8B",
+     "energia": 3.7
+    },
+    {
+     "posicion": 7,
+     "artista": "Artista 003",
+     "titulo": "Cumbia 143",
+     "genero": "cumbia",
+     "bpm": 96.2,
+     "camelot": "11A",
+     "energia": 4.2
+    },
+    {
+     "posicion": 8,
+     "artista": "Artista 007",
+     "titulo": "Cumbia 7",
+     "genero": "cumbia",
+     "bpm": 95.9,
+     "camelot": "5A",
+     "energia": 4.9
+    },
+    {
+     "posicion": 9,
+     "artista": "Artista 132",
+     "titulo": "Cumbia 132",
+     "genero": "cumbia",
+     "bpm": 96.3,
+     "camelot": "6A",
+     "energia": 5.4
+    },
+    {
+     "posicion": 10,
+     "artista": "Artista 093",
+     "titulo": "Cumbia 93",
+     "genero": "cumbia",
+     "bpm": 95.5,
+     "camelot": "6A",
+     "energia": 4.7
+    },
+    {
+     "posicion": 11,
+     "artista": "Artista 032",
+     "titulo": "Cumbia 32",
+     "genero": "cumbia",
+     "bpm": 95.5,
+     "camelot": "1A",
+     "energia": 4.8
+    },
+    {
+     "posicion": 12,
+     "artista": "Artista 026",
+     "titulo": "Cumbia 26",
+     "genero": "cumbia",
+     "bpm": 95.3,
+     "camelot": "2B",
+     "energia": 3.3
+    },
+    {
+     "posicion": 13,
+     "artista": "Artista 106",
+     "titulo": "Cumbia 106",
+     "genero": "cumbia",
+     "bpm": 94.8,
+     "camelot": "8A",
+     "energia": 4.1
+    },
+    {
+     "posicion": 14,
+     "artista": "Artista 138",
+     "titulo": "Cumbia 138",
+     "genero": "cumbia",
+     "bpm": 94.9,
+     "camelot": "9A",
+     "energia": 4.0
+    },
+    {
+     "posicion": 15,
+     "artista": "Artista 005",
+     "titulo": "Cumbia 145",
+     "genero": "cumbia",
+     "bpm": 95.8,
+     "camelot": "7B",
+     "energia": 4.3
+    },
+    {
+     "posicion": 16,
+     "artista": "Artista 139",
+     "titulo": "Cumbia 139",
+     "genero": "cumbia",
+     "bpm": 96.9,
+     "camelot": "9A",
+     "energia": 4.1
+    },
+    {
+     "posicion": 17,
+     "artista": "Artista 118",
+     "titulo": "Cumbia 118",
+     "genero": "cumbia",
+     "bpm": 97.6,
+     "camelot": "4B",
+     "energia": 3.9
+    },
+    {
+     "posicion": 18,
+     "artista": "Artista 039",
+     "titulo": "Cumbia 39",
+     "genero": "cumbia",
+     "bpm": 96.8,
+     "camelot": "10B",
+     "energia": 4.3
+    },
+    {
+     "posicion": 19,
+     "artista": "Artista 013",
+     "titulo": "Cumbia 13",
+     "genero": "cumbia",
+     "bpm": 97.9,
+     "camelot": "5B",
+     "energia": 4.0
+    },
+    {
+     "posicion": 20,
+     "artista": "Artista 016",
+     "titulo": "Cumbia 16",
+     "genero": "cumbia",
+     "bpm": 102.7,
+     "camelot": "4B",
+     "energia": 7.0
+    },
+    {
+     "posicion": 21,
+     "artista": "Artista 075",
+     "titulo": "Cumbia 75",
+     "genero": "cumbia",
+     "bpm": 102.4,
+     "camelot": "12B",
+     "energia": 6.2
+    },
+    {
+     "posicion": 22,
+     "artista": "Artista 001",
+     "titulo": "Cumbia 1",
+     "genero": "cumbia",
+     "bpm": 103.1,
+     "camelot": "9A",
+     "energia": 7.6
+    },
+    {
+     "posicion": 23,
+     "artista": "Artista 069",
+     "titulo": "Cumbia 420 209",
+     "genero": "cumbia_420",
+     "bpm": 105.1,
+     "camelot": "9A",
+     "energia": 6.7
+    },
+    {
+     "posicion": 24,
+     "artista": "Artista 084",
+     "titulo": "Cumbia 420 224",
+     "genero": "cumbia_420",
+     "bpm": 105.6,
+     "camelot": "9A",
+     "energia": 7.5
+    },
+    {
+     "posicion": 25,
+     "artista": "Artista 055",
+     "titulo": "Cumbia 420 195",
+     "genero": "cumbia_420",
+     "bpm": 104.1,
+     "camelot": "9B",
+     "energia": 6.0
+    },
+    {
+     "posicion": 26,
+     "artista": "Artista 101",
+     "titulo": "Cumbia 420 241",
+     "genero": "cumbia_420",
+     "bpm": 103.6,
+     "camelot": "3B",
+     "energia": 7.0
+    },
+    {
+     "posicion": 27,
+     "artista": "Artista 104",
+     "titulo": "Cumbia 420 244",
+     "genero": "cumbia_420",
+     "bpm": 104.5,
+     "camelot": "4B",
+     "energia": 7.7
+    },
+    {
+     "posicion": 28,
+     "artista": "Artista 098",
+     "titulo": "Cumbia 420 238",
+     "genero": "cumbia_420",
+     "bpm": 103.0,
+     "camelot": "5B",
+     "energia": 6.8
+    },
+    {
+     "posicion": 29,
+     "artista": "Artista 034",
+     "titulo": "Cumbia 420 174",
+     "genero": "cumbia_420",
+     "bpm": 103.1,
+     "camelot": "12A",
+     "energia": 6.2
+    },
+    {
+     "posicion": 30,
+     "artista": "Artista 053",
+     "titulo": "Cumbia 420 193",
+     "genero": "cumbia_420",
+     "bpm": 103.5,
+     "camelot": "6A",
+     "energia": 7.5
+    },
+    {
+     "posicion": 31,
+     "artista": "Artista 035",
+     "titulo": "Cumbia 35",
+     "genero": "cumbia",
+     "bpm": 103.1,
+     "camelot": "7A",
+     "energia": 6.3
+    },
+    {
+     "posicion": 32,
+     "artista": "Artista 012",
+     "titulo": "Cumbia 12",
+     "genero": "cumbia",
+     "bpm": 103.4,
+     "camelot": "7A",
+     "energia": 6.9
+    },
+    {
+     "posicion": 33,
+     "artista": "Artista 008",
+     "titulo": "Cumbia 8",
+     "genero": "cumbia",
+     "bpm": 103.3,
+     "camelot": "8A",
+     "energia": 6.3
+    },
+    {
+     "posicion": 34,
+     "artista": "Artista 050",
+     "titulo": "Cumbia 50",
+     "genero": "cumbia",
+     "bpm": 103.0,
+     "camelot": "8B",
+     "energia": 7.0
+    },
+    {
+     "posicion": 35,
+     "artista": "Artista 009",
+     "titulo": "Cumbia 149",
+     "genero": "cumbia",
+     "bpm": 103.2,
+     "camelot": "9B",
+     "energia": 6.1
+    },
+    {
+     "posicion": 36,
+     "artista": "Artista 004",
+     "titulo": "Cumbia 144",
+     "genero": "cumbia",
+     "bpm": 103.8,
+     "camelot": "5A",
+     "energia": 7.4
+    },
+    {
+     "posicion": 37,
+     "artista": "Artista 056",
+     "titulo": "Cumbia 420 196",
+     "genero": "cumbia_420",
+     "bpm": 106.2,
+     "camelot": "4A",
+     "energia": 8.2
+    },
+    {
+     "posicion": 38,
+     "artista": "Artista 038",
+     "titulo": "Cumbia 420 178",
+     "genero": "cumbia_420",
+     "bpm": 107.8,
+     "camelot": "4A",
+     "energia": 7.9
+    },
+    {
+     "posicion": 39,
+     "artista": "Artista 002",
+     "titulo": "Dembow 562",
+     "genero": "dembow",
+     "bpm": 111.4,
+     "camelot": "5A",
+     "energia": 8.2
+    },
+    {
+     "posicion": 40,
+     "artista": "Artista 000",
+     "titulo": "Dembow 560",
+     "genero": "dembow",
+     "bpm": 113.2,
+     "camelot": "7A",
+     "energia": 8.3
+    }
+   ]
+  },
+  {
+   "id": "ejemplo-04",
+   "fuente": "sintetico",
+   "escena": "ejemplo",
+   "temas": [
+    {
+     "posicion": 1,
+     "artista": "Artista 112",
+     "titulo": "Cumbia 112",
+     "genero": "cumbia",
+     "bpm": 92.1,
+     "camelot": "7A",
+     "energia": 3.7
+    },
+    {
+     "posicion": 2,
+     "artista": "Artista 070",
+     "titulo": "Cumbia 70",
+     "genero": "cumbia",
+     "bpm": 96.5,
+     "camelot": "10A",
+     "energia": 3.8
+    },
+    {
+     "posicion": 3,
+     "artista": "Artista 016",
+     "titulo": "Cumbia 16",
+     "genero": "cumbia",
+     "bpm": 94.8,
+     "camelot": "10A",
+     "energia": 3.1
+    },
+    {
+     "posicion": 4,
+     "artista": "Artista 071",
+     "titulo": "Cumbia 71",
+     "genero": "cumbia",
+     "bpm": 92.8,
+     "camelot": "12A",
+     "energia": 3.6
+    },
+    {
+     "posicion": 5,
+     "artista": "Artista 001",
+     "titulo": "Cumbia 141",
+     "genero": "cumbia",
+     "bpm": 92.5,
+     "camelot": "1A",
+     "energia": 3.6
+    },
+    {
+     "posicion": 6,
+     "artista": "Artista 137",
+     "titulo": "Cumbia 137",
+     "genero": "cumbia",
+     "bpm": 92.4,
+     "camelot": "3A",
+     "energia": 3.5
+    },
+    {
+     "posicion": 7,
+     "artista": "Artista 083",
+     "titulo": "Cumbia 83",
+     "genero": "cumbia",
+     "bpm": 93.1,
+     "camelot": "3A",
+     "energia": 3.6
+    },
+    {
+     "posicion": 8,
+     "artista": "Artista 051",
+     "titulo": "Cumbia 51",
+     "genero": "cumbia",
+     "bpm": 92.2,
+     "camelot": "4A",
+     "energia": 2.8
+    },
+    {
+     "posicion": 9,
+     "artista": "Artista 072",
+     "titulo": "Cumbia 72",
+     "genero": "cumbia",
+     "bpm": 92.6,
+     "camelot": "5A",
+     "energia": 3.3
+    },
+    {
+     "posicion": 10,
+     "artista": "Artista 033",
+     "titulo": "Cumbia 33",
+     "genero": "cumbia",
+     "bpm": 92.7,
+     "camelot": "6A",
+     "energia": 2.7
+    },
+    {
+     "posicion": 11,
+     "artista": "Artista 017",
+     "titulo": "Cumbia 157",
+     "genero": "cumbia",
+     "bpm": 93.9,
+     "camelot": "6A",
+     "energia": 3.2
+    },
+    {
+     "posicion": 12,
+     "artista": "Artista 050",
+     "titulo": "Cumbia 50",
+     "genero": "cumbia",
+     "bpm": 93.6,
+     "camelot": "6A",
+     "energia": 4.3
+    },
+    {
+     "posicion": 13,
+     "artista": "Artista 023",
+     "titulo": "Cumbia 23",
+     "genero": "cumbia",
+     "bpm": 92.4,
+     "camelot": "6B",
+     "energia": 3.4
+    },
+    {
+     "posicion": 14,
+     "artista": "Artista 008",
+     "titulo": "Cumbia 148",
+     "genero": "cumbia",
+     "bpm": 93.7,
+     "camelot": "6B",
+     "energia": 4.2
+    },
+    {
+     "posicion": 15,
+     "artista": "Artista 073",
+     "titulo": "Cumbia 73",
+     "genero": "cumbia",
+     "bpm": 93.4,
+     "camelot": "5B",
+     "energia": 3.6
+    },
+    {
+     "posicion": 16,
+     "artista": "Artista 131",
+     "titulo": "Cumbia 131",
+     "genero": "cumbia",
+     "bpm": 93.1,
+     "camelot": "10B",
+     "energia": 4.1
+    },
+    {
+     "posicion": 17,
+     "artista": "Artista 080",
+     "titulo": "Cumbia 80",
+     "genero": "cumbia",
+     "bpm": 92.0,
+     "camelot": "11B",
+     "energia": 2.3
+    },
+    {
+     "posicion": 18,
+     "artista": "Artista 006",
+     "titulo": "Cumbia 6",
+     "genero": "cumbia",
+     "bpm": 92.4,
+     "camelot": "12B",
+     "energia": 3.6
+    },
+    {
+     "posicion": 19,
+     "artista": "Artista 092",
+     "titulo": "Cumbia 92",
+     "genero": "cumbia",
+     "bpm": 94.0,
+     "camelot": "1B",
+     "energia": 4.6
+    },
+    {
+     "posicion": 20,
+     "artista": "Artista 020",
+     "titulo": "Cumbia 160",
+     "genero": "cumbia",
+     "bpm": 93.8,
+     "camelot": "1A",
+     "energia": 4.2
+    },
+    {
+     "posicion": 21,
+     "artista": "Artista 134",
+     "titulo": "Cumbia 134",
+     "genero": "cumbia",
+     "bpm": 93.7,
+     "camelot": "2A",
+     "energia": 4.5
+    },
+    {
+     "posicion": 22,
+     "artista": "Artista 013",
+     "titulo": "Cumbia 13",
+     "genero": "cumbia",
+     "bpm": 93.9,
+     "camelot": "6B",
+     "energia": 4.6
+    },
+    {
+     "posicion": 23,
+     "artista": "Artista 005",
+     "titulo": "Cumbia 145",
+     "genero": "cumbia",
+     "bpm": 94.3,
+     "camelot": "9A",
+     "energia": 3.4
+    },
+    {
+     "posicion": 24,
+     "artista": "Artista 032",
+     "titulo": "Cumbia 32",
+     "genero": "cumbia",
+     "bpm": 94.9,
+     "camelot": "9B",
+     "energia": 4.7
+    },
+    {
+     "posicion": 25,
+     "artista": "Artista 086",
+     "titulo": "Cumbia 420 226",
+     "genero": "cumbia_420",
+     "bpm": 95.2,
+     "camelot": "7A",
+     "energia": 4.5
+    },
+    {
+     "posicion": 26,
+     "artista": "Artista 116",
+     "titulo": "Reggaeton 396",
+     "genero": "reggaeton",
+     "bpm": 93.6,
+     "camelot": "11A",
+     "energia": 7.3
+    },
+    {
+     "posicion": 27,
+     "artista": "Artista 115",
+     "titulo": "Reggaeton 395",
+     "genero": "reggaeton",
+     "bpm": 93.8,
+     "camelot": "11A",
+     "energia": 5.7
+    },
+    {
+     "posicion": 28,
+     "artista": "Artista 060",
+     "titulo": "Reggaeton 340",
+     "genero": "reggaeton",
+     "bpm": 92.9,
+     "camelot": "11A",
+     "energia": 5.2
+    },
+    {
+     "posicion": 29,
+     "artista": "Artista 034",
+     "titulo": "Reggaeton 314",
+     "genero": "reggaeton",
+     "bpm": 93.7,
+     "camelot": "11A",
+     "energia": 6.9
+    },
+    {
+     "posicion": 30,
+     "artista": "Artista 089",
+     "titulo": "Reggaeton 369",
+     "genero": "reggaeton",
+     "bpm": 93.8,
+     "camelot": "10A",
+     "energia": 5.9
+    },
+    {
+     "posicion": 31,
+     "artista": "Artista 125",
+     "titulo": "Reggaeton 265",
+     "genero": "reggaeton",
+     "bpm": 93.8,
+     "camelot": "10A",
+     "energia": 6.7
+    },
+    {
+     "posicion": 32,
+     "artista": "Artista 122",
+     "titulo": "Reggaeton 262",
+     "genero": "reggaeton",
+     "bpm": 92.6,
+     "camelot": "8A",
+     "energia": 6.0
+    },
+    {
+     "posicion": 33,
+     "artista": "Artista 017",
+     "titulo": "Reggaeton 297",
+     "genero": "reggaeton",
+     "bpm": 92.3,
+     "camelot": "2A",
+     "energia": 7.0
+    },
+    {
+     "posicion": 34,
+     "artista": "Artista 001",
+     "titulo": "Reggaeton 281",
+     "genero": "reggaeton",
+     "bpm": 93.4,
+     "camelot": "3A",
+     "energia": 6.4
+    },
+    {
+     "posicion": 35,
+     "artista": "Artista 111",
+     "titulo": "Reggaeton 391",
+     "genero": "reggaeton",
+     "bpm": 93.8,
+     "camelot": "3A",
+     "energia": 7.1
+    },
+    {
+     "posicion": 36,
+     "artista": "Artista 062",
+     "titulo": "Reggaeton 342",
+     "genero": "reggaeton",
+     "bpm": 94.3,
+     "camelot": "3A",
+     "energia": 5.9
+    },
+    {
+     "posicion": 37,
+     "artista": "Artista 079",
+     "titulo": "Cumbia 420 219",
+     "genero": "cumbia_420",
+     "bpm": 102.4,
+     "camelot": "10B",
+     "energia": 6.1
+    },
+    {
+     "posicion": 38,
+     "artista": "Artista 112",
+     "titulo": "Cumbia 420 252",
+     "genero": "cumbia_420",
+     "bpm": 104.8,
+     "camelot": "2B",
+     "energia": 6.1
+    },
+    {
+     "posicion": 39,
+     "artista": "Artista 108",
+     "titulo": "Cumbia 420 248",
+     "genero": "cumbia_420",
+     "bpm": 105.4,
+     "camelot": "2B",
+     "energia": 7.9
+    },
+    {
+     "posicion": 40,
+     "artista": "Artista 025",
+     "titulo": "Cumbia 420 165",
+     "genero": "cumbia_420",
+     "bpm": 106.2,
+     "camelot": "8B",
+     "energia": 7.9
+    }
+   ]
+  },
+  {
+   "id": "ejemplo-05",
+   "fuente": "sintetico",
+   "escena": "ejemplo",
+   "temas": [
+    {
+     "posicion": 1,
+     "artista": "Artista 056",
+     "titulo": "Perreo 476",
+     "genero": "perreo",
+     "bpm": 96.4,
+     "camelot": "3B",
+     "energia": 6.5
+    },
+    {
+     "posicion": 2,
+     "artista": "Artista 012",
+     "titulo": "Perreo 432",
+     "genero": "perreo",
+     "bpm": 95.2,
+     "camelot": "3B",
+     "energia": 6.9
+    },
+    {
+     "posicion": 3,
+     "artista": "Artista 016",
+     "titulo": "Perreo 436",
+     "genero": "perreo",
+     "bpm": 96.5,
+     "camelot": "3B",
+     "energia": 6.2
+    },
+    {
+     "posicion": 4,
+     "artista": "Artista 102",
+     "titulo": "Reggaeton 382",
+     "genero": "reggaeton",
+     "bpm": 96.1,
+     "camelot": "3B",
+     "energia": 6.3
+    },
+    {
+     "posicion": 5,
+     "artista": "Artista 085",
+     "titulo": "Reggaeton 365",
+     "genero": "reggaeton",
+     "bpm": 96.5,
+     "camelot": "5B",
+     "energia": 7.0
+    },
+    {
+     "posicion": 6,
+     "artista": "Artista 075",
+     "titulo": "Reggaeton 355",
+     "genero": "reggaeton",
+     "bpm": 96.1,
+     "camelot": "5B",
+     "energia": 6.7
+    },
+    {
+     "posicion": 7,
+     "artista": "Artista 116",
+     "titulo": "Reggaeton 256",
+     "genero": "reggaeton",
+     "bpm": 96.6,
+     "camelot": "2B",
+     "energia": 7.3
+    },
+    {
+     "posicion": 8,
+     "artista": "Artista 130",
+     "titulo": "Reggaeton 270",
+     "genero": "reggaeton",
+     "bpm": 96.0,
+     "camelot": "12B",
+     "energia": 7.2
+    },
+    {
+     "posicion": 9,
+     "artista": "Artista 027",
+     "titulo": "Reggaeton 307",
+     "genero": "reggaeton",
+     "bpm": 95.8,
+     "camelot": "12B",
+     "energia": 7.3
+    },
+    {
+     "posicion": 10,
+     "artista": "Artista 119",
+     "titulo": "Reggaeton 399",
+     "genero": "reggaeton",
+     "bpm": 95.1,
+     "camelot": "12B",
+     "energia": 7.0
+    },
+    {
+     "posicion": 11,
+     "artista": "Artista 035",
+     "titulo": "Perreo 455",
+     "genero": "perreo",
+     "bpm": 95.9,
+     "camelot": "11B",
+     "energia": 6.0
+    },
+    {
+     "posicion": 12,
+     "artista": "Artista 041",
+     "titulo": "Perreo 461",
+     "genero": "perreo",
+     "bpm": 95.8,
+     "camelot": "11B",
+     "energia": 7.1
+    },
+    {
+     "posicion": 13,
+     "artista": "Artista 074",
+     "titulo": "Perreo 494",
+     "genero": "perreo",
+     "bpm": 96.8,
+     "camelot": "11A",
+     "energia": 5.9
+    },
+    {
+     "posicion": 14,
+     "artista": "Artista 013",
+     "titulo": "Perreo 433",
+     "genero": "perreo",
+     "bpm": 96.4,
+     "camelot": "11A",
+     "energia": 6.3
+    },
+    {
+     "posicion": 15,
+     "artista": "Artista 071",
+     "titulo": "Perreo 491",
+     "genero": "perreo",
+     "bpm": 96.6,
+     "camelot": "11A",
+     "energia": 6.2
+    },
+    {
+     "posicion": 16,
+     "artista": "Artista 026",
+     "titulo": "Perreo 446",
+     "genero": "perreo",
+     "bpm": 95.5,
+     "camelot": "1A",
+     "energia": 5.8
+    },
+    {
+     "posicion": 17,
+     "artista": "Artista 008",
+     "titulo": "Perreo 428",
+     "genero": "perreo",
+     "bpm": 95.4,
+     "camelot": "2A",
+     "energia": 6.7
+    },
+    {
+     "posicion": 18,
+     "artista": "Artista 028",
+     "titulo": "Perreo 448",
+     "genero": "perreo",
+     "bpm": 97.2,
+     "camelot": "2B",
+     "energia": 7.1
+    },
+    {
+     "posicion": 19,
+     "artista": "Artista 126",
+     "titulo": "Perreo 406",
+     "genero": "perreo",
+     "bpm": 98.9,
+     "camelot": "1B",
+     "energia": 6.9
+    },
+    {
+     "posicion": 20,
+     "artista": "Artista 030",
+     "titulo": "Perreo 450",
+     "genero": "perreo",
+     "bpm": 102.8,
+     "camelot": "3B",
+     "energia": 7.2
+    },
+    {
+     "posicion": 21,
+     "artista": "Artista 036",
+     "titulo": "Perreo 456",
+     "genero": "perreo",
+     "bpm": 103.2,
+     "camelot": "4B",
+     "energia": 8.8
+    },
+    {
+     "posicion": 22,
+     "artista": "Artista 138",
+     "titulo": "Perreo 418",
+     "genero": "perreo",
+     "bpm": 105.2,
+     "camelot": "4A",
+     "energia": 9.5
+    },
+    {
+     "posicion": 23,
+     "artista": "Artista 018",
+     "titulo": "Perreo 438",
+     "genero": "perreo",
+     "bpm": 104.8,
+     "camelot": "4A",
+     "energia": 8.9
+    },
+    {
+     "posicion": 24,
+     "artista": "Artista 085",
+     "titulo": "Perreo 505",
+     "genero": "perreo",
+     "bpm": 104.8,
+     "camelot": "4B",
+     "energia": 9.6
+    },
+    {
+     "posicion": 25,
+     "artista": "Artista 137",
+     "titulo": "Perreo 417",
+     "genero": "perreo",
+     "bpm": 102.0,
+     "camelot": "5B",
+     "energia": 8.0
+    },
+    {
+     "posicion": 26,
+     "artista": "Artista 073",
+     "titulo": "Perreo 493",
+     "genero": "perreo",
+     "bpm": 103.4,
+     "camelot": "6B",
+     "energia": 7.4
+    },
+    {
+     "posicion": 27,
+     "artista": "Artista 040",
+     "titulo": "Perreo 460",
+     "genero": "perreo",
+     "bpm": 104.2,
+     "camelot": "6B",
+     "energia": 9.3
+    },
+    {
+     "posicion": 28,
+     "artista": "Artista 066",
+     "titulo": "Perreo 486",
+     "genero": "perreo",
+     "bpm": 104.6,
+     "camelot": "6B",
+     "energia": 8.8
+    },
+    {
+     "posicion": 29,
+     "artista": "Artista 020",
+     "titulo": "Perreo 440",
+     "genero": "perreo",
+     "bpm": 104.2,
+     "camelot": "6A",
+     "energia": 9.2
+    },
+    {
+     "posicion": 30,
+     "artista": "Artista 006",
+     "titulo": "Perreo 426",
+     "genero": "perreo",
+     "bpm": 101.7,
+     "camelot": "7A",
+     "energia": 6.9
+    },
+    {
+     "posicion": 31,
+     "artista": "Artista 136",
+     "titulo": "Perreo 416",
+     "genero": "perreo",
+     "bpm": 102.8,
+     "camelot": "7A",
+     "energia": 9.1
+    },
+    {
+     "posicion": 32,
+     "artista": "Artista 091",
+     "titulo": "Perreo 511",
+     "genero": "perreo",
+     "bpm": 105.1,
+     "camelot": "8A",
+     "energia": 7.9
+    },
+    {
+     "posicion": 33,
+     "artista": "Artista 048",
+     "titulo": "Perreo 468",
+     "genero": "perreo",
+     "bpm": 103.8,
+     "camelot": "8A",
+     "energia": 9.0
+    },
+    {
+     "posicion": 34,
+     "artista": "Artista 022",
+     "titulo": "Perreo 442",
+     "genero": "perreo",
+     "bpm": 104.5,
+     "camelot": "9A",
+     "energia": 9.1
+    },
+    {
+     "posicion": 35,
+     "artista": "Artista 000",
+     "titulo": "Perreo 420",
+     "genero": "perreo",
+     "bpm": 102.5,
+     "camelot": "10A",
+     "energia": 7.4
+    },
+    {
+     "posicion": 36,
+     "artista": "Artista 082",
+     "titulo": "Perreo 502",
+     "genero": "perreo",
+     "bpm": 104.2,
+     "camelot": "10B",
+     "energia": 8.1
+    },
+    {
+     "posicion": 37,
+     "artista": "Artista 120",
+     "titulo": "Dembow 540",
+     "genero": "dembow",
+     "bpm": 116.1,
+     "camelot": "11B",
+     "energia": 7.3
+    },
+    {
+     "posicion": 38,
+     "artista": "Artista 114",
+     "titulo": "Dembow 534",
+     "genero": "dembow",
+     "bpm": 116.3,
+     "camelot": "11B",
+     "energia": 7.6
+    },
+    {
+     "posicion": 39,
+     "artista": "Artista 111",
+     "titulo": "Dembow 531",
+     "genero": "dembow",
+     "bpm": 117.6,
+     "camelot": "10A",
+     "energia": 7.7
+    },
+    {
+     "posicion": 40,
+     "artista": "Artista 118",
+     "titulo": "Dembow 538",
+     "genero": "dembow",
+     "bpm": 116.7,
+     "camelot": "7B",
+     "energia": 9.3
+    }
+   ]
+  },
+  {
+   "id": "ejemplo-06",
+   "fuente": "sintetico",
+   "escena": "ejemplo",
+   "temas": [
+    {
+     "posicion": 1,
+     "artista": "Artista 065",
+     "titulo": "Cumbia 65",
+     "genero": "cumbia",
+     "bpm": 103.0,
+     "camelot": "7B",
+     "energia": 6.3
+    },
+    {
+     "posicion": 2,
+     "artista": "Artista 055",
+     "titulo": "Cumbia 55",
+     "genero": "cumbia",
+     "bpm": 95.5,
+     "camelot": "7B",
+     "energia": 3.7
+    },
+    {
+     "posicion": 3,
+     "artista": "Artista 003",
+     "titulo": "Cumbia 143",
+     "genero": "cumbia",
+     "bpm": 99.1,
+     "camelot": "3B",
+     "energia": 6.3
+    },
+    {
+     "posicion": 4,
+     "artista": "Artista 073",
+     "titulo": "Cumbia 73",
+     "genero": "cumbia",
+     "bpm": 101.6,
+     "camelot": "2B",
+     "energia": 6.3
+    },
+    {
+     "posicion": 5,
+     "artista": "Artista 100",
+     "titulo": "Cumbia 100",
+     "genero": "cumbia",
+     "bpm": 103.1,
+     "camelot": "1B",
+     "energia": 5.9
+    },
+    {
+     "posicion": 6,
+     "artista": "Artista 008",
+     "titulo": "Cumbia 8",
+     "genero": "cumbia",
+     "bpm": 103.1,
+     "camelot": "12B",
+     "energia": 7.6
+    },
+    {
+     "posicion": 7,
+     "artista": "Artista 014",
+     "titulo": "Cumbia 14",
+     "genero": "cumbia",
+     "bpm": 103.0,
+     "camelot": "12B",
+     "energia": 6.0
+    },
+    {
+     "posicion": 8,
+     "artista": "Artista 097",
+     "titulo": "Cumbia 97",
+     "genero": "cumbia",
+     "bpm": 103.0,
+     "camelot": "12A",
+     "energia": 6.2
+    },
+    {
+     "posicion": 9,
+     "artista": "Artista 124",
+     "titulo": "Cumbia 124",
+     "genero": "cumbia",
+     "bpm": 102.4,
+     "camelot": "12A",
+     "energia": 6.7
+    },
+    {
+     "posicion": 10,
+     "artista": "Artista 022",
+     "titulo": "Cumbia 22",
+     "genero": "cumbia",
+     "bpm": 102.2,
+     "camelot": "1A",
+     "energia": 6.9
+    },
+    {
+     "posicion": 11,
+     "artista": "Artista 082",
+     "titulo": "Cumbia 82",
+     "genero": "cumbia",
+     "bpm": 103.4,
+     "camelot": "1A",
+     "energia": 7.1
+    },
+    {
+     "posicion": 12,
+     "artista": "Artista 063",
+     "titulo": "Cumbia 63",
+     "genero": "cumbia",
+     "bpm": 103.5,
+     "camelot": "12A",
+     "energia": 6.3
+    },
+    {
+     "posicion": 13,
+     "artista": "Artista 044",
+     "titulo": "Cumbia 420 184",
+     "genero": "cumbia_420",
+     "bpm": 103.0,
+     "camelot": "12A",
+     "energia": 6.4
+    },
+    {
+     "posicion": 14,
+     "artista": "Artista 050",
+     "titulo": "Cumbia 420 190",
+     "genero": "cumbia_420",
+     "bpm": 103.1,
+     "camelot": "10A",
+     "energia": 6.1
+    },
+    {
+     "posicion": 15,
+     "artista": "Artista 024",
+     "titulo": "Cumbia 420 164",
+     "genero": "cumbia_420",
+     "bpm": 103.3,
+     "camelot": "5B",
+     "energia": 5.6
+    },
+    {
+     "posicion": 16,
+     "artista": "Artista 018",
+     "titulo": "Cumbia 18",
+     "genero": "cumbia",
+     "bpm": 102.3,
+     "camelot": "5B",
+     "energia": 7.0
+    },
+    {
+     "posicion": 17,
+     "artista": "Artista 029",
+     "titulo": "Cumbia 29",
+     "genero": "cumbia",
+     "bpm": 102.8,
+     "camelot": "4B",
+     "energia": 7.3
+    },
+    {
+     "posicion": 18,
+     "artista": "Artista 128",
+     "titulo": "Cumbia 128",
+     "genero": "cumbia",
+     "bpm": 102.6,
+     "camelot": "4A",
+     "energia": 5.7
+    },
+    {
+     "posicion": 19,
+     "artista": "Artista 039",
+     "titulo": "Cumbia 39",
+     "genero": "cumbia",
+     "bpm": 101.7,
+     "camelot": "4A",
+     "energia": 6.1
+    },
+    {
+     "posicion": 20,
+     "artista": "Artista 028",
+     "titulo": "Cumbia 28",
+     "genero": "cumbia",
+     "bpm": 102.2,
+     "camelot": "4B",
+     "energia": 7.2
+    },
+    {
+     "posicion": 21,
+     "artista": "Artista 075",
+     "titulo": "Cumbia 75",
+     "genero": "cumbia",
+     "bpm": 102.3,
+     "camelot": "9A",
+     "energia": 5.5
+    },
+    {
+     "posicion": 22,
+     "artista": "Artista 006",
+     "titulo": "Cumbia 6",
+     "genero": "cumbia",
+     "bpm": 102.4,
+     "camelot": "9A",
+     "energia": 6.6
+    },
+    {
+     "posicion": 23,
+     "artista": "Artista 025",
+     "titulo": "Cumbia 25",
+     "genero": "cumbia",
+     "bpm": 103.1,
+     "camelot": "8A",
+     "energia": 6.2
+    },
+    {
+     "posicion": 24,
+     "artista": "Artista 113",
+     "titulo": "Cumbia 113",
+     "genero": "cumbia",
+     "bpm": 103.8,
+     "camelot": "7A",
+     "energia": 7.3
+    },
+    {
+     "posicion": 25,
+     "artista": "Artista 022",
+     "titulo": "Cumbia 162",
+     "genero": "cumbia",
+     "bpm": 103.6,
+     "camelot": "6B",
+     "energia": 7.5
+    },
+    {
+     "posicion": 26,
+     "artista": "Artista 047",
+     "titulo": "Cumbia 47",
+     "genero": "cumbia",
+     "bpm": 103.1,
+     "camelot": "11B",
+     "energia": 6.5
+    },
+    {
+     "posicion": 27,
+     "artista": "Artista 071",
+     "titulo": "Cumbia 420 211",
+     "genero": "cumbia_420",
+     "bpm": 104.4,
+     "camelot": "10B",
+     "energia": 6.2
+    },
+    {
+     "posicion": 28,
+     "artista": "Artista 091",
+     "titulo": "Cumbia 420 231",
+     "genero": "cumbia_420",
+     "bpm": 103.6,
+     "camelot": "11B",
+     "energia": 7.6
+    },
+    {
+     "posicion": 29,
+     "artista": "Artista 056",
+     "titulo": "Cumbia 420 196",
+     "genero": "cumbia_420",
+     "bpm": 104.1,
+     "camelot": "11A",
+     "energia": 6.9
+    },
+    {
+     "posicion": 30,
+     "artista": "Artista 111",
+     "titulo": "Cumbia 111",
+     "genero": "cumbia",
+     "bpm": 102.7,
+     "camelot": "11A",
+     "energia": 5.8
+    },
+    {
+     "posicion": 31,
+     "artista": "Artista 069",
+     "titulo": "Cumbia 420 209",
+     "genero": "cumbia_420",
+     "bpm": 101.9,
+     "camelot": "11A",
+     "energia": 6.2
+    },
+    {
+     "posicion": 32,
+     "artista": "Artista 116",
+     "titulo": "Cumbia 116",
+     "genero": "cumbia",
+     "bpm": 102.1,
+     "camelot": "12A",
+     "energia": 5.9
+    },
+    {
+     "posicion": 33,
+     "artista": "Artista 126",
+     "titulo": "Cumbia 126",
+     "genero": "cumbia",
+     "bpm": 101.6,
+     "camelot": "12A",
+     "energia": 5.7
+    },
+    {
+     "posicion": 34,
+     "artista": "Artista 037",
+     "titulo": "Cumbia 37",
+     "genero": "cumbia",
+     "bpm": 103.4,
+     "camelot": "7B",
+     "energia": 7.6
+    },
+    {
+     "posicion": 35,
+     "artista": "Artista 018",
+     "titulo": "Cumbia 158",
+     "genero": "cumbia",
+     "bpm": 103.0,
+     "camelot": "6B",
+     "energia": 6.5
+    },
+    {
+     "posicion": 36,
+     "artista": "Artista 038",
+     "titulo": "Cumbia 38",
+     "genero": "cumbia",
+     "bpm": 103.7,
+     "camelot": "6B",
+     "energia": 5.9
+    },
+    {
+     "posicion": 37,
+     "artista": "Artista 026",
+     "titulo": "Cumbia 420 166",
+     "genero": "cumbia_420",
+     "bpm": 105.2,
+     "camelot": "6B",
+     "energia": 7.1
+    },
+    {
+     "posicion": 38,
+     "artista": "Artista 104",
+     "titulo": "Cumbia 420 244",
+     "genero": "cumbia_420",
+     "bpm": 104.5,
+     "camelot": "5B",
+     "energia": 6.8
+    },
+    {
+     "posicion": 39,
+     "artista": "Artista 085",
+     "titulo": "Cumbia 420 225",
+     "genero": "cumbia_420",
+     "bpm": 104.6,
+     "camelot": "5B",
+     "energia": 7.5
+    },
+    {
+     "posicion": 40,
+     "artista": "Artista 086",
+     "titulo": "Cumbia 420 226",
+     "genero": "cumbia_420",
+     "bpm": 105.1,
+     "camelot": "2A",
+     "energia": 8.1
+    }
+   ]
+  }
+ ]
+}

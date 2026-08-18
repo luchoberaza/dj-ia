@@ -22,13 +22,20 @@ sin nube.
 
 | Etapa | Estado |
 |---|---|
-| 1. Núcleo de decisión + invariantes | ✅ construido, 125 tests en verde |
-| 2. Destilación del corpus de sets reales | pendiente |
+| 1. Núcleo de decisión + invariantes | ✅ construido |
+| 2. Destilador de corpus + auditoría de configuración | ✅ construido — **falta el corpus real** (ver abajo) |
 | 3. Analizador de biblioteca (Essentia + madmom) | pendiente |
 | 4. Auditoría de sets generados sobre catálogo real | pendiente (necesita 2 y 3) |
 | 5. Nube + votación | pendiente |
 | 6. Agente reproductor y costura | pendiente |
 | 7. Modo degradado y observabilidad | pendiente |
+
+**La etapa 2 está construida pero sin alimentar.** La maquinaria que convierte sets
+reales en reglas del motor funciona y está testeada; lo que falta es el corpus, y está
+bloqueado por el riesgo **R2** (términos de servicio de las fuentes). Ver
+[`docs/formato-corpus.md`](docs/formato-corpus.md). El archivo de ejemplo que viene en
+`datos/` es sintético y lo generó el propio motor: **sirve para demostrar el formato y
+nada más** — calibrar con él sería circular.
 
 Lo construido es una **librería pura**: sin audio, sin red, sin base de datos. Corre
 igual en la nube y en el agente del local, que es lo que hace trivial el modo sin
@@ -80,9 +87,13 @@ costos.py        cuánto cuesta una transición y de qué tipo es
 deseabilidad.py  qué tan bueno es un tema ahora (votos, tendencia, histórico local)
 restricciones.py las reglas duras: no son costo, son ley
 planificador.py  beam search: busca la ruta, no el próximo tema
-invariantes.py   el nivel 0 de validación — se corre en tests Y en producción
+invariantes.py   nivel 0 de validación: audita PLANES — corre en tests Y en producción
+corpus.py        sets reales: el formato de ingesta del nivel 1
+destilacion.py   convierte sets reales en el grafo, la tolerancia y las curvas
+auditoria.py     audita la CONFIGURACIÓN: trampas de tempo y profundidad por fase
 catalogo_demo.py catálogo sintético de boliche argentino, reproducible
 cli.py           generación en seco de una noche entera
+cli_corpus.py    destilar un corpus · auditar catálogo y grafo
 ```
 
 Las dos ideas que sostienen todo:
