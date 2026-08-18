@@ -549,9 +549,20 @@ y reggaetón de boliche están mal cubiertos. Tres alternativas, por calidad:
    antes de hacerlo, no después.
 2. **Airplay de radio** — las radios publican qué pasaron y en qué orden. Es programación musical
    profesional, con curva.
-3. **La mejor: el histórico de un local que ya funciona.** Un boliche lleno todos los sábados es un
-   oráculo infinitamente mejor que un DJ opinando. Un mes de registro = el corpus latino que no
-   existe en internet.
+3. ~~**La mejor: el histórico de un local que ya funciona.**~~
+   ⚠️ **Corregido el 17-ago-2026.** Confundía dos usos del mismo dato. El histórico de un
+   local **no sirve para imitar** —la música que suena en un local promedio es promedio,
+   y copiarla codifica esa mediocridad igual que copiar a un DJ malo—. Sirve para
+   **medir**, que es el nivel 2, y ahí su valor está intacto: no se copia lo que se
+   tocó, se mide qué vació la pista.
+
+   Para medir, **un DJ malo es mejor maestro que uno bueno**: produce muchos ejemplos
+   negativos, y lo que hace falta es varianza y etiquetas, no calidad.
+
+   Como fuente de imitación queda el **airplay de radio** (la programan programadores
+   musicales, otro oficio) y, sobre todo, el **grafo curado a mano**: lo único
+   genuinamente cultural son ~10 géneros y ~30 aristas, y eso lo contesta una persona
+   con criterio en una tarde. Ver `docs/formato-corpus.md`.
 
 ### Nivel 2 — La pista misma
 

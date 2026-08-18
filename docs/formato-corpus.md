@@ -63,12 +63,50 @@ python -m dj.cli_corpus destilar corpus.json --escena boliche_ar
 
 ## Fuentes, y en qué estado está cada una
 
+> ### Antes de elegir una fuente: imitar no es lo mismo que medir
+>
+> Un corpus se puede usar de dos maneras completamente distintas, y confundirlas es el
+> error que casi cometemos.
+>
+> **Imitar** — copiar lo que se tocó, aprender "esto va después de esto porque acá lo
+> hacen así". Sirve **solo** si la fuente es buena. Con material mediocre, basura entra
+> y basura sale.
+>
+> **Medir** — registrar qué pasó *cuando* se tocó. Acá la lógica se da vuelta: **un DJ
+> malo es un mejor maestro que uno bueno**, porque produce muchos ejemplos negativos.
+> No hace falta calidad, hacen falta **varianza y etiquetas**. Un DJ excelente da 200
+> transiciones que funcionaron y ninguna que no; el malo da 200 de cada una, y el
+> segundo conjunto enseña más.
+>
+> **Este archivo documenta la ingesta para IMITAR (nivel 1).** Todo lo que se destile de
+> acá sale de suponer que la fuente sabe lo que hace. Los datos del propio local son
+> otra cosa —nivel 2, medición— y no entran por este formato.
+
 | Fuente | Cobertura | Estado |
 |---|---|---|
 | **1001Tracklists** | Muy buena en electrónica: Boiler Room, Essential Mix, festivales | ⚠️ **Bloqueado por R2**: hay que resolver los términos de servicio antes de escribir el ingestor |
 | **Reconstrucción por huella acústica** de mixes publicados | La única vía razonable para lo latino | ⚠️ **Bloqueado por R2**: descargar de Mixcloud/SoundCloud probablemente viola sus términos |
-| **Airplay de radio** | Programación musical profesional, con curva | Vía limpia, pendiente de explorar |
-| **Histórico de un local que funciona** | **La mejor de todas** para lo latino | Requiere un local piloto. Un mes de registro es el corpus que no existe en internet |
+| **Airplay de radio** | Programación musical profesional, con curva. La programan programadores musicales, no el DJ del boliche: es otro oficio y otro nivel | Vía limpia, pendiente de explorar. **La mejor candidata para lo latino** |
+| **Grafo curado a mano** | 10 géneros y ~30 aristas: es poquísimo conocimiento | Disponible ya. Ver abajo |
+
+### El grafo curado a mano no es un plan B
+
+~~El histórico de un local que funciona era la mejor fuente.~~ **Corregido:** el
+histórico del local **no es una fuente de imitación**, porque la música que suena en un
+local promedio es promedio. Es un conjunto de datos de nivel 2 —medición— y ahí su valor
+está intacto: no se copia lo que se tocó, se mide qué vació la pista.
+
+Para lo único genuinamente cultural —qué género puede seguir a cuál— no hacen falta
+miles de sets. Son unas treinta preguntas del tipo "¿de cumbia se puede saltar a
+cuarteto?", y las puede contestar **una** persona con criterio.
+
+El grafo curado arranca el sistema sin depender de ningún corpus ni de ningún DJ.
+Después el nivel 2 lo corrige con datos: si una arista curada a mano vacía la pista cada
+vez que el motor la toma, el dato la saca.
+
+`dj/catalogo_demo.py::ARISTAS_BOLICHE` es un grafo curado de ejemplo, y
+`dj.cli_corpus auditar` verifica que cualquier grafo curado sostenga la política antes
+de que llegue a producción.
 
 **No hay ningún ingestor escrito todavía, y es deliberado.** El destilador
 (`dj/destilacion.py`) está construido y testeado contra corpus de prueba; los
